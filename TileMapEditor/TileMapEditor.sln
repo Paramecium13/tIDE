@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{5A92BF55-75D9-42FE-9A3D-F44B77F2CF77}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TileSheets", "TileSheets", "{FAC8407A-A75A-44EC-8ADB-5D4E46372CF5}"
@@ -45,10 +47,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWP7", "Demo\DemoWP7.csproj", "{376109A2-CCF4-423E-BB48-10340BEDA555}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -224,6 +222,7 @@ Global
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Debug|Mixed Platforms.ActiveCfg = Debug|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Debug|Mixed Platforms.Build.0 = Debug|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Debug|Windows Phone.ActiveCfg = Debug|Xbox 360
+		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Debug|Windows Phone.Build.0 = Debug|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Debug|x86.ActiveCfg = Debug|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Debug|Xbox 360.Build.0 = Debug|Xbox 360
@@ -233,6 +232,7 @@ Global
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Release|Mixed Platforms.ActiveCfg = Release|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Release|Mixed Platforms.Build.0 = Release|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Release|Windows Phone.ActiveCfg = Release|Xbox 360
+		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Release|Windows Phone.Build.0 = Release|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Release|x86.ActiveCfg = Release|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Release|Xbox 360.ActiveCfg = Release|Xbox 360
 		{1CEC6C4C-B7EC-4678-9606-4E34E08371FC}.Release|Xbox 360.Build.0 = Release|Xbox 360
@@ -279,5 +279,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FAC8407A-A75A-44EC-8ADB-5D4E46372CF5} = {5A92BF55-75D9-42FE-9A3D-F44B77F2CF77}
 		{961826DA-DCD8-4117-92D0-272E551B87F0} = {5A92BF55-75D9-42FE-9A3D-F44B77F2CF77}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
