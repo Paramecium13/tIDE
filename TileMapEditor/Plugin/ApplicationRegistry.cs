@@ -9,9 +9,9 @@ namespace tIDE.Plugin
 {
     public class ApplicationRegistry
     {
-        public class MenuStrip
+        public static class MenuStrip
         {
-            public class FileMenu
+            public static class FileMenu
             {
                 public static string Name
                 {
